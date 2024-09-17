@@ -1,0 +1,40 @@
+.explore{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    padding: 20px 60px;
+    background-color: var(--orange);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.learnMoreSection{
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 141px 111px;
+}
+
+.learnMoreSection > div{
+    max-width: 40%;
+}
+
+.learnMoreSection h1{
+    font-family: "Playfair", serif;
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 80%;
+    padding: 0 0 20px 0;
+}
+
+.learnMoreSection p{
+    color: var(--silver);
+    font-size: 17px;
+    font-family: "Muli", sans-serif;
+    font-weight: 30;
+    max-width: 77.5%;
+    padding: 0 0 40px;
+}

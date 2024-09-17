@@ -1,0 +1,67 @@
+.heroSection{
+    padding: 0 189px 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroSection h1{
+    font-family: "Playfair", serif;
+    font-size: 64px;
+    color: var(--blue);
+    line-height: 80px;
+    padding: 114px 0;
+    max-width: 80%  ;
+}
+
+.heroSection h2{
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    color: var(--blue);
+    padding: 0 0 21px;
+}
+
+.heroSection hr{
+    border: none;
+    background-color: var(--blue);
+    width: 32px;
+    height: 2px;
+    margin-left: 0;
+}
+
+.heroSection label{
+    display: grid;
+    padding: 48px 0;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    gap: 30px;
+}
+
+.heroSection select{
+    border: 1px solid var(--lighter-silver);
+    border-radius: 6px;
+    padding: 0 21px;
+    width: 220px;
+    height: 52px;
+    appearance: none;
+    background: url("../assets/Bird.svg") no-repeat right 26px center;
+}
+
+.heroSection > img{
+    padding: 0 0 0 105px;
+}
+
+
+.learnMore{
+    padding: 20px 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 8px;
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    cursor: pointer;
+    text-decoration: none;
+
+}

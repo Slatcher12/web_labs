@@ -1,0 +1,36 @@
+footer{
+    background-color: var(--white);
+}
+
+.footerHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 191px;
+    align-items: center;
+
+}
+
+.footerHead p {
+    color: var(--lighter-grey);
+    font-family: "Muli", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+footer hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lighter-grey);
+    height: 1px;
+    margin: 0 190px;
+    max-width: 100%;
+}
+
+.footerBottom ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style-type: none;
+    padding: 33px 0 41px ;
+}
