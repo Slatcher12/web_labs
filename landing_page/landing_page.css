@@ -1,0 +1,24 @@
+@import "../styles/footer.css";
+@import "../styles/destination-section.css";
+@import "../styles/learn-more-section.css";
+@import "../styles/hero-section.css";
+@import "../styles/header.css";
+
+@font-face {
+    font-family: 'Muli';
+    src: url("../assets/fonts/muli/Muli-Regular.ttf");
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter/static/Inter_18pt-Regular.ttf");
+}
+@font-face {
+    font-family: "Playfair";
+    src: url("../assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

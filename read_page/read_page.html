@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thousand Sunny</title>
+    <link rel="stylesheet" href="read_page.css">
+</head>
+<body>
+    <header id="header">
+        <img src="../assets/logo.svg" alt="logo">
+        <nav id="nav">
+            <ul>
+                <li><a href="../landing_page/landing_page.html">Home</a></li>
+                <li><a href="../read_page/read_page.html">Destinations</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Partner</a></li>
+            </ul>
+            <div class="signButtons">
+                <a class="login" href="#">Login</a>
+                <a class="register" href="#">Register</a>
+            </div>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line3"></div>
+        </div>
+    </header>
+    <div id="container"></div>
+     <main>
+        <section class="section-menu">
+            <div class="create">
+                <a href="#">Create a destination</a>
+            </div>
+            <div class="search-menu" id="search-menu">
+                <form>
+                    <label class="input-buttons-menu">
+                        <input placeholder="Type something...">
+                        <label class="buttons-menu">
+                            <button type="submit" class="search"><span>Search</span><img src="../assets/Search_button.svg" alt="Search"></button>
+                            <button type="reset" class="clear"><span>Clear</span><img src="../assets/clear_button.svg" alt="Clear"></button>
+                        </label>
+                    </label>
+                </form>
+            </div>
+        </section>
+        <section class="section-items">
+            <div class="item-manager">
+                <div class="sort-div">
+                    <h1>Manage Doctors</h1>
+                    <form>
+                        <label for="sort"> Sort by: </label>
+                        <select class="sort-select" name="sort" id="sort">
+                                <option selected disabled hidden>Choose one...</option>
+                                <option>Price</option>
+                                <option>Name</option>
+                        </select>
+                    </form>
+                </div>
+                <hr>
+                <div class="count-div">
+                    <h2>Count price</h2>
+                    <form>
+                        <label>
+                            <button type="submit" class="item-count-button">Count</button>
+                            <output>Total: <span id="total_price"></span></output>
+                        </label>
+                    </form>
+                </div>
+            </div>
+
+            <div id="ItemsWrappper" class="items-wrapper">
+                <template class="item-template">
+                    <div class="item">
+                        <div class="avatar"></div>
+                        <div class="info">
+                            <h3 class="name">some text</h3>
+                            <h4 class="description">some text2</h4>
+                            <h5 class="updated-at">3 minutes ago</h5>
+                            <h6 class="price"></h6>
+                        </div>
+                        <div class="manage">
+                            <button>Edit</button>
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footerHead">
+            <img src="../assets/logo.svg" alt="logo">
+            <p>©2020 Thousand Sunny. All rights reserved</p>
+        </div>
+        <hr>
+        <div class="footerBot">
+            <ul>
+                <li>
+                    <a href="https://www.x.com">
+                        <img src="../assets/Twitter.svg" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com">
+                        <img src="../assets/Facebook.svg" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">
+                        <img src="../assets/Instagram.svg" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com">
+                        <img src="../assets/LinkedIn.svg" alt="LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com">
+                        <img src="../assets/YouTube.svg" alt="YouTube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../scripts/header.js"></script>
+    <script src="read_page.js"></script>
+</body>
+</html>
