@@ -1,0 +1,37 @@
+:root {
+  --lighter-grey: #C4C4C4;
+  --darker-grey: #848484;
+  --grey: #B8BECD;
+  --silver: #7D7987;
+  --white: #F8F8F8;
+  --black: black;
+  --orange: #FB8F1D;
+  --light-orange: #b37f44;
+  --blue: #202336;
+  --lighter-silver: #AFB0B9;
+
+
+  --header-h: 150px;
+  --base-tr: 0.3s ease-in-out;
+  --contpadding: 100px;
+
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url("assets/fonts/muli/Muli-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter/static/Inter_18pt-Regular.ttf");
+}
+@font-face {
+  font-family: "Playfair";
+  src: url("assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "destination_id": 1,
+    "name": "Kolomyia",
+    "description": "Kolomyia, formerly known as Kolomea (Ukrainian: Коломия), is a city located on the Prut River in Ivano-Frankivsk Oblast (province), in western Ukraine",
+    "updated_at": "Last updated 3 minutes ago",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ94ypCoObAbNuKqWL0ZU19aekAOQUxYWZ9NQ&s",
+    "price": 120
+  },
+  {
+    "destination_id": 2,
+    "name": "Kolodruby",
+    "description": "Коло́друби — село у Стрийському районі Львівської області. Належить до Миколаївської міської ради. Нараховує близько 260 дворів. В селі проживає 1 034 особи.",
+    "updated_at": "Last updated 5 minutes ago",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Dniester_River_in_Kolodruby.JPG/435px-Dniester_River_in_Kolodruby.JPG",
+    "price": 150
+  },
+  {
+    "destination_id": 3,
+    "name": "Kostopil",
+    "description": "Косто́піль — місто в Україні, Рівненського району, Рівненської області. Центр Костопільської громади. Населення становить 37 988 осіб (2022). Засноване 1783 року. Статус міста з 1923 року.",
+    "updated_at": "Last updated 8 minutes ago",
+    "picture": "https://www.rivnenews.com.ua/wp-content/uploads/2021/01/24524545245454524524-604x330.jpg",
+    "price": 200
+  },
+  {
+    "destination_id": 4,
+    "name": "Lviv",
+    "description": "Lviv emerged as the centre of the historical regions of Red Ruthenia and Galicia in the 14th century, superseding Halych, Chełm, Belz, and Przemyśl. It was the capital of the Kingdom of Galicia–Volhynia from 1272 to 1349",
+    "updated_at": "Last updated 10 minutes ago",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQphe831yjPqB4cVMmzjbhmOyENBxhqUdpSTA&s",
+    "price": 130
+  },
+  {
+    "destination_id": 5,
+    "name": "Kyiv",
+    "description": "Kyiv is the capital and most populous city of Ukraine. It is in north-central Ukraine along the Dnieper River. As of 1 January 2022, its population was 2,952,301, making Kyiv the seventh-most populous city in Europe.",
+    "updated_at": "Last updated 12 minutes ago",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEZxlsiaTcEWjpr_zzJSXJIuklWmCXIvetkw&s",
+    "price": 180
+  }
+]
