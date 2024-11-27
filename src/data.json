@@ -1,0 +1,52 @@
+[
+  {
+    "destination_id": 1,
+    "name": "Munich",
+    "description": "Straddling the banks of the river Isar north of the Alps, Munich is the seat of the Bavarian administrative region of Upper Bavaria, while being the most densely populated municipality in Germany with 4,500 people per km2. Munich is the second-largest city in the Bavarian dialect area, after the Austrian capital of Vienna.",
+    "updated_at": "Last updated 3 minutes ago",
+    "picture": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTaedQZrkUe6eyE_kixyPQ6axsd9QfOy6hdmyggfEGLECiPM9a_VtTzwxi-2qGrs7bYlBFBHkEYdQn9vKcsNJCVLuBmtx_OP8Zfk-PASw",
+    "price": 120,
+    "rating": 5,
+    "country": "Germany"
+  },
+  {
+    "destination_id": 2,
+    "name": "Kyoto",
+    "description": "Kyoto is one of the oldest municipalities in Japan .The capital was relocated from Kyoto to Tokyo after the Meiji Restoration. The modern municipality of Kyoto was established in 1889.",
+    "updated_at": "Last updated 5 minutes ago",
+    "picture": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSn-C2tnLeijvysXy4q10PzNYGIAO7GCIZF09UNtXmyWsbr1hX0CoceM2jS_U8Y4vmf5a4NE4uCvvtx3LfxrmosY4CDFIR4eBM0IGmCTQ",
+    "price": 150,
+    "rating": 4.9,
+    "country": "Japan"
+  },
+  {
+    "destination_id": 3,
+    "name": "San-Francisco",
+    "description": "San Francisco, officially the City and County of San Francisco, is a commercial, financial, and cultural center within Northern California. With a population of 808,988 residents as of 2023, San Francisco is the fourth-most populous city in the U.S. state of California behind Los Angeles, San Diego, and San Jose",
+    "updated_at": "Last updated 8 minutes ago",
+    "picture": "https://cdn.britannica.com/13/77413-050-95217C0B/Golden-Gate-Bridge-San-Francisco.jpg",
+    "price": 220,
+    "rating": 3.6,
+    "country": "USA"
+  },
+  {
+    "destination_id": 4,
+    "name": "Lviv",
+    "description": "Lviv emerged as the centre of the historical regions of Red Ruthenia and Galicia in the 14th century, superseding Halych, Chełm, Belz, and Przemyśl. It was the capital of the Kingdom of Galicia–Volhynia from 1272 to 1349",
+    "updated_at": "Last updated 10 minutes ago",
+    "picture": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRqYBZJ9xsIq-dXXJb6TFKfDwcgMgyee7eWaHnJCEXuYLMXvKon-iHR5xmtLzDfnGbbz2Ak9LPU_oT2ylH5CfaRRiQ9NSKmKIvrDN-qrQ",
+    "price": 40,
+    "rating": 4.8,
+    "country": "Ukraine"
+  },
+  {
+    "destination_id": 5,
+    "name": "Kyiv",
+    "description": "Kyiv is the capital and most populous city of Ukraine. It is in north-central Ukraine along the Dnieper River. As of 1 January 2022, its population was 2,952,301, making Kyiv the seventh-most populous city in Europe.",
+    "updated_at": "Last updated 12 minutes ago",
+    "picture": "https://lh6.googleusercontent.com/proxy/frFtmeb_JWa6f-9wzN5efgZP0yELPrNlNCFvudD0p0cR-MgRCUXFNC6K_IFXiNsumyButtwtC6ByC4O5a5YUNhgYZOSVTyPLV3c98lyFBNDqzeDjltAcwhKzjxwTe17EptdNigpRB_gNfcPolEwHob-d_PHk2yQ=w675-h390-n-k-no",
+    "price": 80,
+    "rating": 1.2,
+    "country": "Ukraine"
+  }
+]

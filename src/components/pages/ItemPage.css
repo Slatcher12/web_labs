@@ -1,0 +1,93 @@
+.item-page {
+    padding: 0 100px;
+
+    .info {
+        display: flex;
+        margin-bottom: 30px;
+
+        .avatar {
+            border-radius: 8px;
+            width: 500px;
+            aspect-ratio: 1.7;
+            object-fit: contain;
+        }
+
+        .details {
+            margin: 0 15%;
+            row-gap: 20px;
+            display: flex;
+            flex-direction: column;
+
+            .filters {
+                display: flex;
+                column-gap: 20px;
+
+                .rate-item-page {
+                    border: 4px solid orange;
+                    border-radius: 6px;
+                    font-size: 25px;
+                    padding: 0 20px;
+                    font-family: "Muli", serif;
+                    font-weight: 600;
+                }
+
+                .location-item-page {
+                    border: 4px solid #1abe84;
+                    border-radius: 6px;
+                    font-size: 25px;
+                    padding: 0 20px;
+                    font-family: "Muli", serif;
+                    font-weight: 600;
+                }
+            }
+
+            .name-item-page {
+                font-size: 40px;
+                font-family: "Playfair", sans-serif;
+                font-weight: 700;
+                padding-bottom: 20px;
+            }
+
+            .description-item-page {
+                font-size: 30px;
+                font-family: "Inter", sans-serif;
+                font-weight: 400;
+                padding-bottom: 20px;
+            }
+
+            .price-item-page { /* Переміщено під опис */
+                font-size: 20px;
+                font-family: "Muli", serif;
+                font-weight: 600;
+                margin-top: 20px; /* Доданий відступ зверху */
+            }
+        }
+    }
+
+    .navigation-item-page {
+    display: flex;
+    justify-content: flex-end; /* Вирівнює елемент по правому краю */
+    align-items: center; /* Центрує по вертикалі */
+    margin-top: 20px; /* Відступ згори */
+    margin-left: 0; /* Прибираємо відступ від лівого краю */
+    position: absolute; /* Абсолютне позиціювання */
+    top: 80%; /* Позиціонуємо кнопку на 80% від верху екрану */
+    right: 10%; /* Позиціонуємо на 10% від правого краю */
+}
+
+        .go-back-button {
+            color: white;
+            background-color: cornflowerblue;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 20px;
+            text-decoration: none;
+            display: inline-block;
+}
+
+        .go-back-button:hover {
+            background-color: #1e5a8d; /* Тінь для ефекту при наведенні */
+}
+
+}

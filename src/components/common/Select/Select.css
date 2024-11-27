@@ -1,0 +1,8 @@
+select{
+        border: 1px solid var(--grey);
+        border-radius: 6px;
+        padding: 0 21px;
+        width: 200px;
+        height: 40px;
+        appearance: none;
+    }
